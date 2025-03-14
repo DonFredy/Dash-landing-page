@@ -1,2 +1,2 @@
 # Landing Page
-Create the HTML and CSS for a landing page that closely resembles the mockups. 
+Create the HTML and CSS for a landing page of a delivery service. 
