@@ -1,0 +1,292 @@
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .left-section p {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        background-position: center;
+    }
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .left-section {
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    .left-section p {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .right-section {
+        padding: 1.5rem;
+    }
+
+    .calculator-form {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .calculator-form input {
+        width: 100%;
+    }
+
+    .social-media {
+        margin-top: 2rem;
+    }
+
+
+
+}
+
+
+@media screen and  (max-width: 480px) {
+    body{
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .left-section p {
+        font-size: 1rem;
+    }
+
+    .application-form {
+        gap: 0.75rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 0.75rem;
+    }
+
+    .calculator p {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+body {
+    background-image: url('/images/bg-image/scooter.svg');
+    background-repeat: no-repeat;
+    background-color: #f8f8fc;
+    background-position: center;
+    background-size:570px ;
+    color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* overflow: hidden; */
+
+    /* I wanted to remove the scroll bar but when i do and then click on
+    a button the page goes a little up, hidding the footer.I ll be glad
+    if you let me know how to fix it please . */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.left-section {
+    display: block;
+    flex: 1;
+    padding-top: 0px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.left-section span {
+    display: block;
+}
+
+.logo {
+    width: 80px;
+    margin :20px;
+}
+
+.left-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.right-section {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.right-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.application-form input[type="text"],
+.application-form input[type="email"],
+.application-form input[type="tel"] {
+    padding: 10px;
+    border: 01px  hsl(0, 2%, 41%);
+    border-radius: 5px;
+    background-color: #eaeaea;
+}
+
+.application-form label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.application-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.application-form button {
+    background-color: #00cc88;
+    color: rgb(33, 33, 33);
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 800;
+    cursor: pointer;
+    font-family: "Archivo Black", sans-serif;
+    font-weight :500px;;
+    font-style: normal;
+
+}
+
+.application-form button:hover {
+    background-color: #00b77a;
+}
+
+.status-check {
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.status-check a {
+    color: #ff5a5f;
+    text-decoration: none;
+}
+
+.calculator {
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.footer {
+    background-color: #fffd8c;
+    padding-top:1px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+
+.calculator {
+    max-width: 60% ;
+    padding-left:30px ;
+    padding-top:0 ;
+
+}
+
+.calculator-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+.calculator-form input {
+    padding: 5px;
+    flex-grow: 1;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+
+.calculator-form button {
+    background-color: #ff8480;
+    padding: 10px 20px;
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight:500;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.social-media a img {
+    max-width: 30px;
+    margin-left: 40px;
+}
+

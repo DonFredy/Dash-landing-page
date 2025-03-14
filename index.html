@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Driver Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Cinzel:wght@400..900&family=Faculty+Glyphic&family=Playwrite+PE:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Cinzel:wght@400..900&family=Faculty+Glyphic&family=Playwrite+PE:wght@100..400&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo and main message -->
+        <div class="left-section">
+            <img src="/images/logo/logo.png" alt="Dash Logo" class="logo">
+            <h1>Want to be <span>your own<span>boss?</span></span></h1>
+            <p>Start today and make up to $30/hr driving <span>your own vehicle with Dash!</span></p>
+            <!-- <img src="/images/bg-image/scooter.svg" alt="Person on scooter" class="scooter-image"> -->
+        </div>
+
+        <!-- Application form -->
+        <div class="right-section">
+            <h2>Apply Now</h2>
+            <p>Enter your info below to get started.</p>
+
+            <form class="application-form">
+                <input type="text" placeholder="First name" required>
+                <input type="text" placeholder="Last name" required>
+                <input type="email" placeholder="Email address" required>
+                <input type="tel" placeholder="Phone number" required>
+
+                <label>
+                    <input type="checkbox" required> I agree to dash terms
+                </label>
+
+                <button type="submit">DRIVE WITH US</button>
+            </form>
+            
+            <p class="status-check">Already applied? <a href="#">Check your application status here</a></p>
+        </div>
+    </div>
+
+    <!--calculator -->
+    <footer class="footer">
+        <div class="calculator">
+            <p><strong>See how much you can earn with Dash.</strong></p>
+            <p>How many hours do you want to drive this week?</p>
+            <form class="calculator-form">
+
+                <input type="number" id="hours" name="hours" placeholder="hours">
+
+                <input type="text" id="city" name="city" placeholder="city">
+
+                <button type="submit" >Calculate</button>
+            </form>
+        </div>
+
+        <div class="social-media">
+            <a href=""><img src="/images/icons/instagram.svg" alt="Instagram"></a>
+            <a href="#"><img src="/images/icons/twitter.svg" alt="Twitter"></a>
+            <a href="#"><img src="/images/icons/linkedin.svg" alt="LinkedIn"></a>
+            <a href=""><img src="/images/icons/facebook.svg" alt="facebook"></a>
+        </div>
+    </footer>
+</body>
+</html>
